@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Agenda';
+    src: url('Agenda-Medium.woff2') format('woff2'),
+        url('Agenda-Medium.woff') format('woff'),
+        url('Agenda-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

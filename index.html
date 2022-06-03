@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/evms-favicon.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>EVMS</title>
+
+<!-- Google Tag Manager Head Code -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-KLH2M72');</script>
+<!-- End Google Tag Manager Head Code -->
+
+  </head>
+  <body >
+    <main>
+      <header>
+        <div class="container">
+          <div class="title" tabIndex = '0' >
+            <h6>Celebrating</h6>
+            <h1 >Dr. L.D. Britt</h1>
+            <span>Click or tap the cards to learn more about Dr. Britt</span>
+          </div>
+
+          <div class="logo" tabindex="1">
+          <a href="https://www.evms.edu/">
+            <h2>EVMS</h2>
+            <span>Eastern Virginia Medical School</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <div id="contentContainer" class="trans3d" >
+
+        <div class="hero">
+          <img src="./images/statue-2.png" alt="" />
+        </div>
+        
+        <div class="slider-btn">
+        <!-- <img src="./images/arrow-left-blue.png" alt="" class="btn btn-left">
+        <img src="./images/arrow-right-blue.png" alt="" class="btn btn-right"> -->
+
+<button class="btn btn-left" aria-label="slider left press arrow key left or up to scroll"  tabindex="2">
+<svg class="btn-arrow">
+<use xlink:href="./images/sprite-2.svg#arrow-left-golden" />
+</svg>
+<svg class="btn-eclipse">
+<use xlink:href="./images/sprite-2.svg#ellipse-left" />
+</svg>
+</button>
+<button class="btn btn-right" aria-label="slider right" tabindex="14" aria-label="slider left press arrow key right or down  to scroll"  > 
+<svg class="btn-arrow">
+<use xlink:href="./images/sprite-2.svg#arrow-right-golden" />
+</svg>
+<svg class="btn-eclipse">
+<use xlink:href="./images/sprite-2.svg#ellipse-right" />
+</svg>
+</button>
+ 
+
+        </div>
+
+        <section id="carouselContainer" class="trans3d" ></section>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="description"  >
+            <h3  tabindex="16">A Landmark for a Leader At The heart of EVMS</h3>
+            <p  tabindex="17">
+              
+              Discover the ongoing legacy and many achievements of the renowned  L.D. Britt, MD, MPH — forever enshrined in a beautiful
+              statue on the EVMS campus. 
+            </p>
+            <p  tabindex="18">
+            If you would like to make a gift in Dr. Britt's honor and support diversity, equity and inclusion efforts at EVMS, please  <a href="https://www.givecampus.com/campaigns/2163/donations/new"  tabindex="19" > click here </a> or call 757.965.8500
+            </p>
+            <!-- <span> -- L.D. Britt, MD MPH</span> -->
+          </div>
+
+          <div class="slider">
+            <!-- <input
+              type="range"
+              min="1"
+              max="12"
+              value="0"
+              id="myRange"
+              class="slide"
+            /> -->
+             <button class="toggle-animation" tabindex="15" >
+                       <span class="toggle-icon"> 
+                          <svg class="icon-pause icon-control">
+                            <use xlink:href="./images/sprite-2.svg#pause-icon"/>
+                         </svg> 
+                          <svg class="icon-play icon-control">
+                            <use xlink:href="./images/sprite-2.svg#play-icon"/>
+                         </svg> 
+                      </span> 
+                     <span class="btn-text">Stop Animation</span>
+              </button>
+
+          </div>
+
+          <div class="social-links"  >
+            <ul aria-label="social links">
+              <li>
+                <a href="https://www.facebook.com/EVMSedu" aria-label="facebook" tabindex="20"
+                  ><i class="fa-brands fa-facebook-f"></i
+                  ><span class="icon-name">FB</span></a
+                >
+              </li>
+              <li>
+                <a href="https://twitter.com/EVMSedu" aria-label="twitter" tabindex="21"
+                  ><i class="fa-brands fa-twitter"></i
+                  ><span class="icon-name" aria-leble="Twitter">TW</span></a
+                > 
+              </li>
+              <li>
+                <a href="https://www.instagram.com/evmsedu/" aria-label="instagram" tabindex="22"
+                  ><i class="fa-brands fa-instagram"></i><span class="icon-name">IG</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+
+      <!-- <button class="toggle-animation">Stop Animation</button> -->
+   
+   </main>
+     <!-------------- MODALS -------------->
+
+    <div class="modal--1 modal"  >
+      <div class="modal__inner"  id="widget1">
+        <button class="btn-close"  tabindex="9">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+            close
+        </button>
+
+        <div class="modal__content" tabindex="4" aria-description="popup content press Escape to close the popup">
+          <div class="modal__head" tabindex="5" aria-lable="doctor Britt image">
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-1.png" ></source>
+              <img src="./images/card-images/modal-1b.png" alt="" />
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper" >
+            <h3 tabindex="6">Change agent </h3>
+               <p tabindex="7">
+               Dr. Britt joined the EVMS faculty in 1986 and has served as Chair of EVMS Surgery since 1994 and Vice Dean for Clinical Affairs since 2021. For the first 25 years of his career, he traveled to Suffolk every Tuesday to see patients, including some of his former school teachers, who couldn’t make it to Norfolk.  
+               </p>
+              <blockquote>
+                <p tabindex="8">
+                “As a young man, I looked around my community, the segregated Jim Crow south, and I saw real struggles,” Dr. Britt says. Issue of healthcare disparities was our biggest challenge. It’s what drew me into medicine. We still have healthcare disparities. To be honest, that’s what keeps me in medicine.”
+                </p>
+              
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+<!-- MODAL--2 -->
+<div class="modal--2 modal">
+      <div class="modal__inner">
+        <button class="btn-close" tabindex="13">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content" tabindex="4" aria-description="popup content press Escape to close the popup">
+          <div class="modal__head" tabindex="5" aria-description ="doctor Britt image">
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-2.png" ></source>
+              <img src="./images/card-images/modal-2b.png" alt="" />
+            </picture>
+            <div class="popup-icon" >
+           <a href="https://www.youtube.com/watch?v=djQRki31e0M" target="_blank" tabindex="6" aria-label="Link to a video" > <img src="./images/play-btn.png" alt=""> </a>
+            </div>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3 tabindex="7">
+             Trailblazer
+              </h3>
+              <p tabindex="8">
+              Education always has been at the center of Dr. Britt’s life. He attended the University of Virginia as an undergraduate before earning dual degrees from Harvard’s medical school and school of public health.  
+              </p>
+              <blockquote> 
+              <p tabindex="9">
+              “The best advice I’ve ever gotten — and it’s turned into advice I also give — is this,” Dr. Britt says, “develop yourself. Yes, there are biases and challenges — racism, sexism and more. Those things are real, and we face them, but the greatest weapon against all of that is excellence. I’ve always felt I can beat racism into the ground with excellence.”
+              </p>
+              </blockquote>
+              <p tabindex="10">
+              By the time Dr. Britt finished his surgical residency at the University of Illinois School of Medicine, some of the top medical schools and teaching hospitals in the country were courting him. He chose to return to Hampton Roads so that he could give back to his home community and play a role in EVMS’ future. 
+              </p>
+
+                <blockquote>
+                <p tabindex="11">
+                “I’ve been very blessed to be recognized throughout the world, but my greatest honor is to be able to take care of patients and ensure they do well,” Dr. Britt says.”
+                </p>
+                <figcaption tabindex="12">Dr. Britt says.</figcaption>
+                </blockquote>
+               </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- MODAL--3 -->
+   <div class="modal--3 modal">
+      <div class="modal__inner">
+        <button class="btn-close" tabindex="11">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content" tabindex="4" aria-description="popup content press Escape to close the popup">
+          <div class="modal__head" tabindex="5" aria-description ="doctor Britt image">
+              <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-3.png" ></source>
+              <img src="./images/card-images/modal-3b.png" alt="" />
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3 tabindex="6">
+              Surgeon. educator.
+              </h3>
+              <p tabindex="7">
+             Dr. Britt has pushed past social, economic and political barriers to earn many of the medical and surgical community’s highest honors and to serve in some of its most influential roles, including president of the American College of Surgeons. 
+              </p>
+             <p tabindex="8">
+             Among other achievements, Dr. Britt was the first Black American to have an endowed chair in surgery and the first EVMS physician to be <a href="https://www.evms.edu/pulse/archive/evmssurgerychairelectedtonationalacademyofmedicine.php" target="_blank" tabindex="9"> named to the prestigious National Academy of Medicine.</a> He also was the first Black surgeon to be presented with the ACS’ Lifetime Achievement award — an honor so prestigious that it has been given to only four other surgeons in the organization’s 108-year history. 
+             </p>
+             <p tabindex="10">
+             Dr. Britt’s most enduring legacy, however, centers on his dedication to three core areas: providing expert patient care, educating the next generation of providers and improving the health of the entire Hampton Roads community.  
+             </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MODAL--4 -->
+<div class="modal--4 modal">
+      <div class="modal__inner">
+        <button class="btn-close" tabindex="11">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content" tabindex="4" aria-description="popup content press Escape to close the popup">
+          <div class="modal__head" tabindex="5" aria-description ="doctor Britt image">
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-12.png" ></source>
+              <!-- <img src="./images/card-images/modal-4b.png" alt="" /> -->
+              <img src="./images/card-images/modal-12b.png" alt="" />
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3 tabindex="6">
+             Thought leader
+              </h3>
+              <p tabindex="7">
+             A prolific researcher, Dr. Britt was awarded a <a href="https://www.evms.edu/about_evms/administrative_offices/marketing_communications/publications/issue_10_2/nih-grant.php" target="_blank" tabindex="8"> $2.5 million grant in 2017 from the National Institutes of Health </a>  on behalf of the American College of Surgeons to address healthcare disparities — and at EVMS both an endowed scholarship and fund in his name help the school diversify and expand its student, faculty and staff populations.  
+              </p>
+
+              <p tabindex="9">
+              Dr. Britt also is the author of more than 220 peer-reviewed publications, more than 50 book chapters and non-peer-reviewed articles and three books. He serves on numerous editorial boards, including the Annals of Surgery, Archives of Surgery, World Journal of Surgery and the Journal of the American College of Surgeons, among others. In addition, he is a reviewer for the New England Journal of Medicine. 
+              </p>
+              <a href="./static/LD_Britt_CV.pdf" download tabindex="10">Read his complete CV  </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <!-- MODAL--5 -->
+<div class="modal--5 modal">
+      <div class="modal__inner">
+        <button class="btn-close" tabindex="9">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content" tabindex="4" aria-description="popup content press Escape to close the popup">
+          <div class="modal__head" tabindex="5" aria-description ="doctor Britt image">
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-5.png" ></source>
+              <img src="./images/card-images/modal-5b.png" alt="" />
+            </picture>
+          </div> 
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3 tabindex="6">
+               Advocate and Ally
+              </h3>
+              
+              <p tabindex="7"> 
+             Beyond EVMS, Dr. Britt has played an instrumental role in almost every major advancement in the surgical community since he began practicing, and he has become a reliable and valued advocate for his colleagues in the operating room, says David Jennette, CSA. The Chief Administrative Officer of The National Surgical Assistant Association has worked for more than 20 years to streamline and modernize state laws and association language, surrounding the profession of surgical assisting. At various points in that process, Dr. Britt has provided meaningful assistance and guidance. 
+              </p>
+              <blockquote>
+              <p tabindex="8">
+               “While he was president of the American College of Surgeons, Dr. Britt made it a point to support our petition to update certification legislation in the state,” Mr. Jennette says. “His name made a huge, positive impact on our efforts. ” 
+              </p>
+        
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL--6 -->
+   <div class="modal--6 modal">
+      <div class="modal__inner">
+        <button class="btn-close" tabindex="9">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content" tabindex="4" aria-description="popup content press Escape to close the popup">
+          <div class="modal__head" tabindex="5" aria-description ="doctor Britt image">
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-9.png" ></source>
+              <img src="./images/card-images/modal-9b.png" alt="" />
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3 tabindex="6">
+                Celebrated professional
+              </h3>
+              <p tabindex="7">
+             A member of Alpha Omega Alpha, Dr. Britt also is the recipient of the nation’s highest teaching award in medicine, the Robert J. Glaser Distinguished Teaching Award. He was honored by the <a href="https://www.evms.edu/pulse/archive/drbritthonoredwiththeacslifetimeachievementaward.php" target="_blank" tabindex="8"> American College of Surgeons with its Lifetime Achievement Award.</a> Dr. Britt was the fifth surgeon and the first African American to earn the honor in the ACS’ 108-year history. More than 190 institutions throughout the world have invited him to be their distinguished visiting professor.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- MODAL--7 -->
+<div class="modal--7 modal">
+      <div class="modal__inner">
+        <button class="btn-close" tabindex="12">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content" tabindex="4" aria-description="popup content press Escape to close the popup">
+          <div class="modal__head"  tabindex="5" aria-description ="doctor Britt image" > 
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-7.png" ></source>
+              <img src="./images/card-images/modal-7b.png" alt="" />
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3 tabindex="6" >
+                Visionary
+              </h3>
+              <p tabindex="7" >
+            In 2019, EVMS established The <a href="https://www.evms.edu/pulse/archive/grantforhealthequityanddiversityopensfornewapplications.php" target="_blank" tabindex="8" aria-label=" Dr. Britt Diversity and Health Equity Fund "> Dr. Britt Diversity and Health Equity Fund </a> through the philanthropic giving of both the Oliver Fund and the Hampton Roads Community Foundation. The fund addresses issues that are central to diversity, equity and inclusion through many different initiatives.  
+              </p>
+
+              <p tabindex="9">
+              Among other goals, the fund helps to improve the graduate and undergraduate medical education experience and environment to support and impact a diverse and inclusive cadre of healthcare faculty members, providers, students, patients and staff. It also supports campus-wide activities, specialized academic programs and service opportunities designed to enhance students’ experiences at EVMS. 
+              </p>
+
+              <p tabindex="10"> 
+              In addition, <a href="https://www.ldbrittmdscholarshipfund.org/" target="_blank" tabindex="11" aria-label="L.D. Britt Scholarship ">  the L.D. Britt, MD, MPH, Endowed Scholarship </a> has been awarded 20 times since its inception in 1995.  The fund was established in Dr. Britt’s name and is presented to a promising minority medical student each year.   
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- MODAL--8 -->
+<div class="modal--8 modal">
+      <div class="modal__inner">
+        <button class="btn-close" tabindex="11">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content" tabindex="4" aria-description="popup content press Escape to close the popup" >
+          <div class="modal__head" tabindex="5" aria-description ="doctor Britt image">
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-10-2.png" ></source>
+             <img src="./images/card-images/modal-8c.png" alt="" />
+              <div class="popup-icon" >
+           <a href="https://vimeo.com/703087638" target="_blank" tabindex="6" aria-label="Link to a video"> <img src="./images/play-btn.png" alt=""> </i> </a>
+            </div>
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3 tabindex="7">
+                 Icon
+              </h3>
+        
+              <p tabindex="8">
+            In Spring 2022 EVMS celebrated Dr. Britt’s commitment to education, patient care and health equity  with the installation of a statue in his likeness, crafted by <a href="https://www.chiodoart.com/" target="_blank" tabindex="9" aria-label="mario chiodo web link"> world-renowned artist Mario Chiodo.</a>  The statue stands on the lawn of EVMS Waitzer Hall and serves as a source of pride and inspiration for the entire community. 
+              </p >
+              <a href="https://vimeo.com/703087638" target="_blank" class="card-link"  tabindex="10">Watch Video <img src="./images/arrow-line.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- MODAL--9 -->
+<div class="modal--9 modal">
+      <div class="modal__inner">
+        <button class="btn-close">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content">
+          <div class="modal__head">
+           <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-9.png" ></source>
+              <img src="./images/card-images/modal-9b.png" alt="" />
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3>
+                Enduring Legacy
+              </h3>
+              <p>
+            Dr. Britt’s most enduring legacy centers on his dedication to three core areas: providing expert
+            patient care, educating the next generation of providers and improving the health of the entire
+            Hampton Roads community
+              </p>
+             <blockquote>
+                <p>
+                 My greatest honor is taking care of patients, Dr. Britt says. There's nothing better than getting
+                 patients the surgical and medical interventions they need. A close second to that, for me, is
+                 teaching.
+                </p>
+                <figcaption>— L.D. Britt, MD, MPH </figcaption>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- MODAL--10 -->
+<div class="modal--10 modal">
+      <div class="modal__inner">
+        <button class="btn-close">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content">
+          <div class="modal__head">
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-10.png" ></source>
+              <img src="./images/card-images/modal-10b.png" alt="" />
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3>
+                 Caring For His Community
+              </h3>
+              <p>
+           While his contributions to the field of medicine have been felt world-wide, Dr. Britt remains
+           dedicated to caring for the community that helped shape him.
+              </p>
+              <p>
+              He has dedicated his entire professional life to addressing healthcare disparities, to delivering
+               unparalleled patient care, and to fostering excellence in training the physicians of tomorrow,
+               right here in Hampton Roads
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- MODAL--11 -->
+<div class="modal--11 modal">
+      <div class="modal__inner">
+        <button class="btn-close">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content">
+          <div class="modal__head">
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-11.png" ></source>
+              <img src="./images/card-images/modal-11b.png" alt="" />
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3>
+                  L.D. Britt’s Best Advice
+              </h3>
+             <blockquote>
+                <p>
+                 The best advice I’ve ever gotten — and it’s turned into advice I also give — is this: Use any
+                 perceived weaknesses to your advantage. Develop yourself. Yes, there are biases and
+                 challenges — racism, sexism and more. Those things are real, and we face them, but the
+                 greatest weapon against all of that is excellence. I’ve always felt I can beat racism into the
+                 ground with excellence
+                </p>
+                <figcaption>— L.D. Britt, MD, MPH </figcaption>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- MODAL--12 -->
+<div class="modal--12 modal">
+      <div class="modal__inner">
+        <button class="btn-close">
+           <!-- <picture>
+            <source media="(max-width: 891px)" srcset="./images/close-arrow-sm.png" ></source>
+            <img src="./images/close.png" alt="" />
+            </picture> -->
+             close
+        </button>
+        <div class="modal__content">
+          <div class="modal__head">
+            <picture>
+              <source media="(max-width: 891px)" srcset="./images/card-images/modal-12.png" ></source>
+              <img src="./images/card-images/modal-12b.png" alt="" />
+            </picture>
+          </div>
+          <div class="modal__body">
+            <div class="modal__body-wrapper">
+              <h3 class="text-capitalize">
+                   Dr. Britt's Accomplishments
+              </h3>
+             <a href="#">Download Dr. Britt's full CV here.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  <!-------------- MODALS -------------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"
+      integrity="sha512-6zTDRWNxo8vI6JZYDCwhrJpg5icK3P4HNnW3czsO5Scb3lAoPDam+/wF3eog4hxcl0h44d0XlIcFkuoSaWHQ2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+
+
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLH2M72"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+
+<script type="text/javascript">
+	
+	(function() {
+	var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+	sz.src = '//us1.siteimprove.com/js/siteanalyze_44561.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+	})();
+	
+</script>
+
+
+
+
+  </body>
+</html>
